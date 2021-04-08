@@ -27,7 +27,7 @@ setup(
         'pyqtlet.web.modules.leaflet_draw_104.dist': ['*'],
         'pyqtlet.web.modules.leaflet_draw_104.dist.images': ['*'],
     },
-    version='0.3.3',
+    version='0.3.4',
     description='Bringing leaflet maps to PyQt',
     author='Samarth Hattangady',
     author_email='samhattangady@gmail.com',
