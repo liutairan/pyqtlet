@@ -13,9 +13,19 @@ pip3 install PyQt5
 pip3 install pyqtlet
 ```
 
+```deactivate```
+```conda create -n pyqtlet-test```
+```activate pyqtlet-test```
+
+Change version in ```setup.py file```
+
+In terminal, type in ```setup.py sdist```
+In terminal, type in ```setup.py install```
+```pip list```
+
 ``` bash
 # To test whether it is successfully working
-python3 
+python3
 >>> from pyqtlet import L, MapWidget
 >>> # No errors
 ```
@@ -71,6 +81,6 @@ For example, if we want to change the marker icon in the above example, add the 
 This technique will allow users to use all the features available in leaflet.
 
 ## Contributing
-In terms of contributing, there is a lot of work that still needs to be done. 
+In terms of contributing, there is a lot of work that still needs to be done.
 Specifically, there are a lot of leaflet features that need to be ported into pyqtlet. All contributions welcome.
 For further details, visit the [contributing page](http://pyqtlet.readthedocs.io/en/latest/contributing.html).
